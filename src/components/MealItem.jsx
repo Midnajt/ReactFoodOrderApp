@@ -1,5 +1,3 @@
-import React from "react";
-
 import { currencyFormatter } from "../util/formatting";
 import Button from "./UI/Button";
 

@@ -1,5 +1,3 @@
-import React from "react";
-
 import logoImg from "../assets/logo.jpg";
 import Button from "./UI/Button";
 
