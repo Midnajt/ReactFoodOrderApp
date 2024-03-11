@@ -8,7 +8,6 @@ const CartContext = createContext({
 
 function cartReducer(state, action) {
   if (action.type === "ADD_ITEM") {
-    // ... update the state to add a meal item
     const existingCartItemIndex = state.items.findIndex((item) => item.id === action.item.id); // sprawdzi czy taki item jest juz w state
 
     const updatedItems = [...state.items]; // zrobi kobie obecnego stanu
